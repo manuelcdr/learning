@@ -33,9 +33,7 @@ var idInterval = 0;
 
 function verificaDigitacao(event) {
     var digitado = campo.val();
-    var fraseCortada = frase.text().substr(0, digitado.length);
-    console.log(event);
-    if (digitado == fraseCortada) {
+    if (frase.text().startsWith(digitado)) {
         console.log("certo");
         campo.addClass("digitado-certo");
         campo.removeClass("digitado-errado");
