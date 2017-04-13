@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Alura Typer</title>
     <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -12,17 +13,22 @@
         <h1>Alura Type</h1>
 
         <p class="frase">Uma frase com oito belas e lindas palavras</p>
-        
-        <p> Teste de alteração de arquivo e atualização no GIT </p>
 
         <ul class="informacoes">
-            <li><span id="tamanho-frase">8</span> palavras</li>
-            <li><span id="tempo-digitacao">5</span> segundos</li>
+            <li>
+                <i class="small material-icons icones">description</i>
+                <span id="tamanho-frase">8</span> palavras
+            </li>
+            <li>
+                <i class="small material-icons icones">query_builder</i>
+                <span id="tempo-digitacao">5</span> segundos
+            </li>
         </ul>
 
         <textarea class="campo-digitacao" placeholder="Clique aqui para iniciar"></textarea>
+        
+        <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">restore</i></a>
 
-        <button id="botao-reiniciar">Reiniciar Jogo</button> 
         <ul>
             <li><span id="contador-caracteres">0</span> caracteres</li>
             <li><span id="contador-palavras">0</span> palavras</li>
