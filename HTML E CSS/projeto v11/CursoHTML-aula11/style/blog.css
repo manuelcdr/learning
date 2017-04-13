@@ -1,0 +1,23 @@
+
+.artigo {
+	padding-bottom: 1.5em;
+	margin-bottom: 1rem;
+}
+
+.artigo ~ .artigo {
+	padding-top: 1.5em;
+	background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.leia-mais {
+	padding: 0.5em;
+	margin: 1em;
+	display: block;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+

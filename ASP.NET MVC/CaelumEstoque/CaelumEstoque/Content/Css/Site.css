@@ -1,0 +1,29 @@
+﻿.header{
+    padding-bottom:10px;
+    border-bottom:3px solid #e5e5e5;
+    margin: 20px auto 20px;
+}
+
+.quantidade {
+    color: inherit;
+    opacity: 1;
+    font-size: inherit;
+    font-weight: inherit;
+    transition-duration: 1s;
+}
+
+.quantidade-decrementada {
+    color: red;
+    opacity: .5;
+    font-size: 130%;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+.quantidade-adicionada {
+    color: blue;
+    opacity: .5;
+    font-size: 130%;
+    font-weight: bold;
+    transition-duration: .2s;
+}

@@ -1,0 +1,105 @@
+
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 0.5em solid #C2CCCA;
+	width: 30ch;
+	box-sizing: border-box;
+	margin: 1em 2em;
+	padding: 1em;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+blockquote:nth-of-type(odd):hover, blockquote:nth-of-type(odd):focus {
+	transform: scale(1.2) rotate(5deg);
+	box-shadow: 0 0 0 9999px rgba(0,0,0,0.7);
+	z-index: 9999;
+}
+
+blockquote:nth-of-type(even):hover, blockquote:nth-of-type(even):focus {
+	transform: scale(1.2) rotate(-5deg);
+	box-shadow: 0 0 0 9999px rgba(0,0,0,0.7);
+	z-index: 9999;
+}
+
+blockquote:nth-of-type(odd) {
+	float: right;
+}
+
+blockquote:nth-of-type(even) {
+	float: left;
+}
+
+blockquote {
+	transition: box-shadow 1s, transform 1s;
+	transition-delay: 1s, 0s;
+}
+
+blockquote:hover, blockquote:focus {
+	transition-delay: 0s, 1s;
+}
+
+.container > p::first-letter {
+	font-size: 2em;
+	font-weight: bold;
+	color: #3C1D3D;
+	text-shadow: .05ch .05ch #000;
+	margin-right: .1ch;
+	line-height: 1;
+}
+
+.citacao-bio {
+	position: relative;
+}
+
+.citacao-bio::before {
+    content: '“';
+    position: absolute;
+    font-size: 10em;
+    color: #bbb;
+	top: 0;
+	left: 0.05em;
+	line-height: .8;
+}
+
+.citacao-bio > p {
+	position: relative;
+}
+
+table {
+	font-family: inherit;
+	font-size: 100%;
+	border-collapse: separate;
+	border-spacing: 1ch;
+	margin: 1em 0;
+}
+
+th {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	background-color: #eee;
+}
+
+th, td {
+	padding: 1em;
+	vertical-align: middle;
+}
+
+thead th {
+	background-color: #3C1D3D;
+}
+
+tbody th {
+	background-color: #851944;
+}
+
+td.estudando {
+	text-align: center;
+}

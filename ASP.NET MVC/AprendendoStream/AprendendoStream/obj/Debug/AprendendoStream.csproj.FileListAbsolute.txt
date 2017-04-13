@@ -1,0 +1,9 @@
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\bin\Debug\AprendendoStream.exe.config
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\bin\Debug\AprendendoStream.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\bin\Debug\AprendendoStream.pdb
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.csprojResolveAssemblyReference.cache
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.Form1.resources
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.Properties.Resources.resources
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.csproj.GenerateResource.Cache
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoStream\AprendendoStream\obj\Debug\AprendendoStream.pdb

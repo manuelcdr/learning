@@ -1,0 +1,6 @@
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\bin\Debug\DesignPatternsStuding.exe.config
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\bin\Debug\DesignPatternsStuding.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\bin\Debug\DesignPatternsStuding.pdb
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\obj\Debug\DesignPatternsStuding.csprojResolveAssemblyReference.cache
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\obj\Debug\DesignPatternsStuding.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\DesignPattern\Projeto\DesignPatternsStuding\DesignPatternsStuding\obj\Debug\DesignPatternsStuding.pdb

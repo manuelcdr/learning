@@ -1,0 +1,339 @@
+.foto-home {
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5em #000;
+}
+
+.subtitulo-principal {
+	text-align: center;
+	font-size: 1rem;
+}
+
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+	text-indent: 2em;
+	margin-bottom: 5rem;
+}
+
+.saudacao strong, .saudacao em {
+	font-size: 3em
+}
+
+.saudacao-inicio {
+    color: #889;
+	font-size: 4em;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+    display: inline-block;
+    transform: rotate(-10deg) skew(-5deg);
+}
+
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    width: 40ch;
+    display: block;
+    text-align: center;
+	margin: 0 auto;
+	padding: 0.5em;
+	margin-top: 2em;
+    box-shadow: 0 0 .5em #999;
+    text-decoration: none;
+    
+    transition: .3s;
+}
+
+.botao-index:hover, .botao-index:focus {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+
+
+.secao-inicio {
+	padding-top: 7rem;
+	padding-bottom: 7em;
+	padding-left: 10em;
+	padding-right: 10em;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+	font-size: 2em;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+
+    background-image: linear-gradient(
+        135deg, 
+        transparent,
+        transparent 14px,
+        rgba(0, 0, 0, 0.4) 14px,
+        rgba(0, 0, 0, 0.4) 15px,
+        transparent 15px,
+        transparent);
+    background-size: 21px 21px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+	margin-top: 2em;
+    overflow: hidden;
+    border: 0.5em solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+}
+.blog ol {
+	margin-top: 2em;
+}
+.blog li a {
+    color: #FCF;
+	line-height: 2em;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+	margin: 0 auto;
+    padding-bottom: 0;
+    float: none;
+}
+footer h2 {
+	font-size: 1.5em;
+}
+
+.blog .posts li {
+    position: relative;
+}
+
+.blog .inicio-post {
+    position: absolute;
+    top: -2.5em;
+    left: 15em;
+    right: 0;
+    background-color: #FFF;
+    padding: 1em 5ch;
+    color: black;
+    display: none;
+}
+
+.blog li:hover {
+    background-color: #FFF;
+    padding: 0.5em 2ch;
+}
+
+.blog li:hover p {
+    display: block;
+}
+
+.blog .posts li {
+    width: 80%;
+}
+
+header {
+    position: relative;
+}
+
+.palavras-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.palavra-home {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #D5447E;
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+}
+
+.eficiencia {
+    top: 20%;
+    left: 30%;
+    transform: translate(-30%, 0) rotate(-5deg) translateZ(4px) scale(0.3);
+}
+
+.boas-praticas {
+    top: 60%;
+    left: 20%;
+    transform: translate(-20%, -5%) rotate(5deg) translateZ(8px) scale(0.3);
+}
+
+.codigo-limpo {
+    top: 15%;
+    left: 75%;
+    transform: translate(-30%, -15%) rotate(-5deg) translateZ(2px) scale(0.3);
+}
+
+.css3 {
+    top: 40%;
+    left: 70%;
+    transform: rotate(-7deg) translateZ(10px) scale(0.3);
+}
+
+.html5 {
+    top: 70%;
+    left: 30%;
+    transform: translate(0, -90%) rotate(7deg) translateZ(9px) scale(0.3);
+}
+
+.javascript {
+    top: 20%;
+    left: 60%;
+    transform: translate(-30%, -40%) rotate(3deg) translateZ(3px) scale(0.3);
+}
+
+.acessibilidade {
+    top: 10%;
+    left: 15%;
+    transform: translate(-40%, -40%) rotate(-3deg) translateZ(1px) scale(0.3);
+}
+
+.responsivo {
+    top: 80%;
+    left: 70%;
+    transform: translate(0, -40%) rotate(8deg) translateZ(4px) scale(0.3);
+}
+
+.otimizacoes {
+    top: 55%;
+    left: 57%;
+    transform: translate(-25%, -60%) rotate(-10deg) translateZ(5px) scale(0.3);
+}
+
+.agilidade {
+    top: 60%;
+    right: 10%;
+    transform: rotate(-5deg) translateZ(-2px) scale(0.3);
+}
+
+.design {
+    top: 40%;
+    left: 10%;
+    transform: translate(-40%, 0) rotate(5deg) translateZ(1px) scale(0.3);
+}
+
+.banner-twitter {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #D5447E;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.7em 3.5em;
+    border: 0.5ch solid black;
+}
+
+.banner-twitter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    perspective: 25px;
+    perspective-origin: 50% 100px;
+}
+
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
+}
+
+.palavras-home {
+    /* versão prefixada se quisermos dar suporte
+       a usuários Chrome, Safari e Opera */
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+    animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards;
+}
+
+.banner-twitter {
+    -webkit-animation: aparece 0.5s;
+    -webkit-animation-delay: 2s;
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.sites-maravilhosos {
+    position: relative;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.sites-maravilhosos:hover {
+    animation-play-state: paused;
+}
+
+@keyframes flutua {
+    from {
+        top: -.5em;
+    }
+    to {
+        top: .5em;
+    }
+}

@@ -1,0 +1,6 @@
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\bin\Debug\AprendendoEntity.exe.config
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\bin\Debug\AprendendoEntity.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\bin\Debug\AprendendoEntity.pdb
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\obj\Debug\AprendendoEntity.csprojResolveAssemblyReference.cache
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\obj\Debug\AprendendoEntity.exe
+C:\Users\manuel.cordeiro\Documents\Cursos\ASP.NET MVC\AprendendoEntity\AprendendoEntity\obj\Debug\AprendendoEntity.pdb
