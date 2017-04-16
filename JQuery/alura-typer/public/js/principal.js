@@ -21,6 +21,7 @@ var contadorPalavras = $("#contador-palavras");
 var contadorPontos = $("#contador-pontos");
 var botaoReiniciar = $("#botao-reiniciar");
 var frase = $(".frase");
+var campoUsuario = $("#usuario");
 
 var tempoInicial = tempoDigitacao.text();
 var idInterval = 0;
@@ -69,8 +70,8 @@ function iniciarTempo() {
         tempo--
         tempoDigitacao.text(tempo);
         if (tempo < 1) {
-            campo.attr("disabled", true);
             clearInterval(idInterval);
+            finalizaJogo();   
         }
     }, 1000);
 };
@@ -86,7 +87,6 @@ function atualizarContadores() {
     contadorPontos.text(caracteres * palavras);
 }
 
-
 function reiniciarJogo() {
     campo.val("");
     campo.attr("disabled", false);
@@ -98,6 +98,38 @@ function reiniciarJogo() {
     contadorPontos.text("0");
     clearInterval(idInterval);
     inicializaTempo();
+}
+
+function adicionarPontuacaoNaTabela(usuario, pontos) {
+    var corpoTabela = $(".placar").find("tbody");
+    var linha = $("<tr>");
+
+    var icone = $("<i>").addClass("red small material-icons").text("delete");
+    var botaoRemover = $("<a>").addClass("btn-floating red").append(icone);
+
+    var tdUsuario = $("<td>").text(usuario);
+    var tdPontos = $("<td>").text(pontos);
+    var tdRemove = $("<td>").append(botaoRemover);
+
+    linha.append(tdUsuario);
+    linha.append(tdPontos);
+    linha.append(tdRemove);
+
+    botaoRemover.click(function(event) {
+        event.preventDefault();
+        $(this).parent().parent().remove();
+    });
+
+    corpoTabela.prepend(linha);
+}
+
+function finalizaJogo() {
+    campo.attr("disabled", true);
+    usuario = campoUsuario.val();
+    if (usuario.trim() == "") {
+        usuario = "Anônimo";
+    }
+    adicionarPontuacaoNaTabela(usuario, contadorPontos.text());
 }
 
 //#endregion funções ---------------------------------------------------------------------------------------------

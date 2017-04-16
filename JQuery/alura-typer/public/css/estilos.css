@@ -9,6 +9,7 @@
     height: 5em;
     border: 2px solid gray;
     transition-duration: .3s;
+    text-align: left;
 }
 
 .campo-digitacao:disabled {
@@ -26,4 +27,8 @@
 .digitado-errado {
     border: 2px solid red;
     box-shadow: 0 0 1em red;
+}
+
+.display-none {
+    display: none;
 }
