@@ -8,7 +8,7 @@ namespace DesignPatternsStuding
 {
     public class Conta
     {
-
+        // Teste de edição de arquivo 
         #region EstadoDaConta
         private interface IEstadoDeUmaConta
         {
