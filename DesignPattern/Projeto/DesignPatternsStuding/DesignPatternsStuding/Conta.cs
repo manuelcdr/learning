@@ -8,14 +8,17 @@ namespace DesignPatternsStuding
 {
     public class Conta
     {
-        // Teste de edição de arquivo 
+        // outro teste!
+
+        // Teste de edição de arquivo
+
         #region EstadoDaConta
         private interface IEstadoDeUmaConta
         {
             void Saca(Conta conta, double valor);
             void Deposita(Conta conta, double valor);
         }
-
+        
         private class Negativada : IEstadoDeUmaConta
         {
             public void Deposita(Conta conta, double valor)
