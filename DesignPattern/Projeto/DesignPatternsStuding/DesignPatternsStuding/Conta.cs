@@ -9,13 +9,15 @@ namespace DesignPatternsStuding
     public class Conta
     {
 
+        // outro teste!
+
         #region EstadoDaConta
         private interface IEstadoDeUmaConta
         {
             void Saca(Conta conta, double valor);
             void Deposita(Conta conta, double valor);
         }
-
+        
         private class Negativada : IEstadoDeUmaConta
         {
             public void Deposita(Conta conta, double valor)
