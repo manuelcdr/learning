@@ -1,0 +1,30 @@
+<meu-titulo-principal titulo="Alura Pic"></meu-titulo-principal>
+
+<div class="row">
+    <div class="col-md-12">
+        <form>
+
+            <!-- Novidade! -->
+
+             <div class="input-group">
+                <span class="input-group-btn">
+                    <a href="/fotos/new" class="btn btn-primary" type="button">
+                        Nova foto
+                    </a>
+                </span>
+                <input class="form-control" placeholder="filtrar pelo título da foto" ng-model="filtro" ng-model-options="{ debounce: 500 }">
+            </div> 
+
+            <!-- fim novidade! -->
+
+        </form>
+    </div> <!-- fim col-md-12 -->
+</div>
+
+<div class="row">
+    <meu-painel class="col-md-2 esconder" ng-repeat="foto in fotos | filter : {titulo : filtro}" titulo="{{foto.titulo}}">
+        <minha-foto titulo="{{foto.titulo}}" url="{{foto.url}}"></minha-foto>
+        <a href="/fotos/edit/{{foto._id}}" class="btn btn-primary btn-block" href="">Editar</a>
+        <meu-botao-perigo acao="remover(foto)" nome="Remover">
+    </meu-painel><!-- fim panel panel-default -->
+</div>

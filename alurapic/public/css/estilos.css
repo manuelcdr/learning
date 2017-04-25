@@ -1,0 +1,9 @@
+
+
+ .esconder {
+    transition:opacity 0.3s;
+}
+
+.esconder.ng-leave-active {
+  opacity: 0.0;
+}
